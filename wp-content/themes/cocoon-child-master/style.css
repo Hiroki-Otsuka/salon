@@ -1,0 +1,144 @@
+@charset "UTF-8";
+
+/*!
+Theme Name: Cocoon Child
+Description: Cocoon専用の子テーマ
+Theme URI: https://wp-cocoon.com/
+Author: わいひら
+Author URI: https://nelog.jp/
+Template:   cocoon-master
+Version:    1.1.2
+*/
+
+/************************************
+** 子テーマ用のスタイルを書く
+************************************/
+/* 見出しカスタマイズ */
+/* H2 */
+.article h2{
+background:none;
+padding: 0;
+}
+
+/* H3 */
+.article h3{
+border-top:none;
+border-bottom:none;
+border-left:none;
+border-right:none;
+padding: 0;
+}
+
+/* H4 */
+.article h4{
+border-top:none;
+border-bottom:none;
+padding: 0;
+}
+
+/* H5 */
+.article h5{
+border-bottom:none;
+padding: 0;
+}
+
+/* H6 */
+.article h6{
+border-bottom:none;
+padding: 0;
+}
+
+#googlemap {
+  border: 0;
+  width: 600px;
+  height: 450px;
+}
+
+#googlemap-wrapper{
+  display: flex;
+  height: 450px;
+}
+#googlemap-side {
+  width: 40%;
+}
+#googlemap-main {
+  width: 60%;
+}
+
+/************************************
+** レスポンシブデザイン用のメディアクエリ
+************************************/
+/*1023px以下*/
+@media screen and (max-width: 1023px){
+  /*必要ならばここにコードを書く*/
+}
+
+/*834px以下*/
+@media screen and (max-width: 834px){
+  .alignleft {
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+  }
+  
+  .alignright {
+    float: right;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    width: 450px;
+  }
+
+  #googlemap {
+    border: 1;
+    width: 450px;
+    height: 300px;
+  }
+  
+  #googlemap-wrapper{
+    display: flex;
+    height: 300px;
+  }
+  #googlemap-side {
+    height: 300px;
+    width: 450px;
+  }
+  #googlemap-main {
+    height: 150px;
+    width: 450px;
+  }
+}
+
+/*480px以下*/
+@media screen and (max-width: 480px){
+  /* 右寄せを中央に */
+  .alignright {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  /* 左寄せを中央に */
+  .alignleft {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+  }
+  #googlemap {
+    border: 1;
+    width: 450px;
+    height: 300px;
+  }
+  
+  #googlemap-wrapper{
+    flex-wrap: wrap;
+    height: 300px;
+  }
+  #googlemap-side {
+    height: 300px;
+    width: 450px;
+  }
+  #googlemap-main {
+    height: 150px;
+    width: 450px;
+  }
+}

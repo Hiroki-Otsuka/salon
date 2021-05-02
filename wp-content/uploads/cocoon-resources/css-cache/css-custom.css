@@ -1,0 +1,94 @@
+
+@media screen and (max-width: 480px){
+  .page-body{
+    font-size: 12px;
+  }
+}
+.header .header-in{
+  min-height: 400px;
+}
+.header{
+  background-image: url(http://localhost:8080/wp-content/uploads/2021/04/guilherme-petri-PtOfbGkU3uI-unsplash-scaled.jpg);
+}
+.main{
+  width: 860px;
+}
+.sidebar{
+  width: 356px;
+}
+@media screen and (max-width: 768px){
+  .header div.header-in{
+    min-height: 200px;
+  }
+}
+/* .toc-content, */
+.toc-checkbox {
+  display: none;
+}
+.toc-content{
+  visibility: hidden;
+  /*display: block; */
+  /* margin-top: -24px; */
+  height: 0;
+  opacity: 0.2;
+  transition: all 0.5s ease-out;
+}
+.toc-checkbox:checked ~ .toc-content {
+  /* display: block; */
+  visibility: visible;
+  padding-top: 0.6em;
+  height: 100%;
+  opacity: 1;
+}
+.toc-title::after{
+  content: '[開く]';
+  margin-left: 0.5em;
+  cursor: pointer;
+  font-size: 0.8em;
+}
+.toc-title:hover::after{
+  text-decoration: underline;
+}
+.toc-checkbox:checked + .toc-title::after{
+  content: '[閉じる]';
+}#respond {
+  display: none;
+}
+#navi .navi-in > ul > li{
+  width: auto;
+}
+#navi .navi-in > ul > li > a{
+  padding: 0 1.4em;
+}
+.entry-content > *,
+.demo .entry-content p {
+  line-height: 1.8;
+}
+    .main p,
+  .main p.wp-block-paragraph {
+    line-height: 1.8;
+  }
+  .entry-content > *,
+.demo .entry-content p {
+  margin-top: 1.4em;
+  margin-bottom: 1.4em;
+}
+.entry-content > .micro-top{
+  margin-bottom: -1.54em;
+}
+.entry-content > .micro-balloon{
+  margin-bottom: -1.12em;
+}
+.entry-content > .micro-bottom{
+  margin-top: -1.54em;
+}
+.entry-content > .micro-bottom.micro-balloon{
+  margin-top: -1.12em;
+  margin-bottom: 1.4em;
+}
+    .main p,
+  .main p.wp-block-paragraph {
+    margin-top: 1.4em;
+    margin-bottom: 1.4em;
+  }
+  
