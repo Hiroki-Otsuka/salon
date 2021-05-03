@@ -1,0 +1,2612 @@
+# Translation of Plugins - Booking Package &#8211; Appointment Booking Calendar System - Stable (latest release) in Japanese
+# This file is distributed under the same license as the Plugins - Booking Package &#8211; Appointment Booking Calendar System - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-04-19 06:10:41+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: ja_JP\n"
+"Project-Id-Version: Plugins - Booking Package &#8211; Appointment Booking Calendar System - Stable (latest release)\n"
+
+#: lib/Setting.php:1024 lib/Setting.php:1025 lib/Setting.php:1026
+#: lib/Setting.php:1027 lib/Setting.php:1028 lib/Setting.php:1029
+#: lib/Setting.php:1030 lib/Setting.php:1031
+msgid "About %d hours ago"
+msgstr "約%d時間前"
+
+#: lib/Setting.php:1023
+msgid "About %d hour ago"
+msgstr "約%d時間前"
+
+#: lib/Setting.php:1021
+msgid "Booking reminder"
+msgstr "予約リマインダー"
+
+#: index.php:5906
+msgid "Deleted"
+msgstr "削除済み"
+
+#: index.php:5905
+msgid "Canceled"
+msgstr "キャンセル済み"
+
+#: index.php:5904
+msgid "Reminder"
+msgstr "リマインダー"
+
+#: index.php:2583
+msgid "For administrator"
+msgstr "管理者向け"
+
+#: index.php:2582
+msgid "For customer"
+msgstr "顧客向け"
+
+#: index.php:3190
+msgid "Send the verification code by email when registering and editing"
+msgstr "登録と編集時にメールで認証コードを送信"
+
+#: lib/Setting.php:787
+msgid "For users"
+msgstr "ユーザー向け"
+
+#: lib/Setting.php:773
+msgid "For customers"
+msgstr "顧客向け"
+
+#: lib/Setting.php:762
+msgid "Send a booking verification code"
+msgstr "予約認証コードを送信"
+
+#: lib/Schedule.php:1024
+msgid "Your username has not been approved."
+msgstr "ユーザー名は承認されていません。"
+
+#: lib/Setting.php:1077
+msgid "Status of booking"
+msgstr "予約のステータス"
+
+#: lib/Setting.php:1036
+msgid "Allow cancellation of booking by your customers"
+msgstr "顧客による予約のキャンセルを許可する"
+
+#: index.php:3135 index.php:3281 index.php:3291 index.php:3298 index.php:3306
+msgid "Save Changes"
+msgstr "変更を保存"
+
+#: lib/Setting.php:717
+msgid "Closed"
+msgstr "公開停止"
+
+#: lib/Setting.php:717
+msgid "Open"
+msgstr "公開"
+
+#: lib/Setting.php:353
+msgid "Alphanumeric Sender ID"
+msgstr "英数字送信者ID"
+
+#: index.php:5825
+msgid "Please enter a valid password."
+msgstr "有効なパスワードを入力してください。"
+
+#: index.php:5824
+msgid "Please enter a valid email address."
+msgstr "正しいメールアドレスを入力してください。"
+
+#: index.php:5823
+msgid "Usernames can only contain lowercase letters (a-z) and numbers."
+msgstr "ユーザー名には半角英字の小文字 (a-z) と数字のみを使ってください。"
+
+#: index.php:1751
+msgid "Verify"
+msgstr "認証"
+
+#: lib/Setting.php:355
+msgid "Messaging Service SID"
+msgstr "Messaging Service SID"
+
+#: lib/Setting.php:353
+msgid "Sending method"
+msgstr "送信方法"
+
+#: index.php:5856
+msgid "Schedule every %s"
+msgstr "%s毎のスケジュール"
+
+#: index.php:3123 index.php:3138
+msgid "Closed days"
+msgstr "定休日"
+
+#: index.php:1749
+msgid "Please enter a verification code."
+msgstr "認証コードを入力してください。"
+
+#: index.php:1747 index.php:6046
+msgid "We sent a verification code to the following address."
+msgstr "下記のアドレスに認証コードを送信しました。"
+
+#: lib/Setting.php:779 lib/Setting.php:793
+msgid "Email and SMS"
+msgstr "メールとSMS"
+
+#: lib/Setting.php:343
+msgid "Background color of closed days"
+msgstr "定休日の背景カラー"
+
+#: lib/Schedule.php:6440
+msgid "The verification code is incorrect."
+msgstr "認証コードが正しくありません。"
+
+#: lib/Schedule.php:6410 lib/Schedule.php:6422
+msgid "We couldn't send you a verification code."
+msgstr "認証コードを送信できませんでした。"
+
+#: lib/Schedule.php:6383
+msgid "Your verification code is: %s"
+msgstr "あなたの認証コード: %s"
+
+#: lib/Schedule.php:6382
+msgid "Verification code"
+msgstr "認証コード"
+
+#: lib/Setting.php:353 lib/Setting.php:358
+msgid "Phone number"
+msgstr "電話番号"
+
+#: lib/Setting.php:357
+msgid "Country calling code"
+msgstr "国際電話番号"
+
+#: lib/Setting.php:356
+msgid "Auth token"
+msgstr "Auth Token（トークン）"
+
+#: lib/Setting.php:354
+msgid "Account SID"
+msgstr "Account SID"
+
+#: index.php:2572
+msgid "Format"
+msgstr "フォーマット"
+
+#: index.php:2567 lib/Setting.php:781 lib/Setting.php:795
+msgid "SMS"
+msgstr "SMS"
+
+#: index.php:2479 index.php:2564
+msgid "Notifications"
+msgstr "通知"
+
+#: lib/Setting.php:1567
+msgid "The front-end only"
+msgstr "フロントエンドのみ"
+
+#: lib/Setting.php:1567
+msgid "The front-end and the dashboard"
+msgstr "フロントエンドとダッシュボード"
+
+#: index.php:5956
+msgid "Booking time"
+msgstr "予約時刻"
+
+#: index.php:5955
+msgid "Booking date"
+msgstr "予約日"
+
+#: index.php:5954
+msgid "Booking date and time"
+msgstr "予約日時"
+
+#: lib/Setting.php:391
+msgid "Size"
+msgstr "サイズ"
+
+#: lib/Setting.php:390
+msgid "Theme"
+msgstr "テーマ"
+
+#: lib/Setting.php:391
+msgid "Compact"
+msgstr "コンパクト"
+
+#: lib/Setting.php:391
+msgid "Normal"
+msgstr "標準"
+
+#: lib/Setting.php:390
+msgid "Dark"
+msgstr "ダーク"
+
+#: lib/Setting.php:390
+msgid "Light"
+msgstr "ライト"
+
+#: index.php:5822
+msgid " to "
+msgstr " 〜 "
+
+#: lib/Setting.php:995
+msgid "Display remaining capacity in schedule label"
+msgstr "残りの容量をスケジュールラベルに表示"
+
+#: lib/Setting.php:1003
+msgid "Block multiple booking in the same time slot"
+msgstr "同じ時間枠で複数の予約をブロックする"
+
+#: lib/Setting.php:384
+msgid "Version"
+msgstr "バージョン"
+
+#: lib/Setting.php:382 lib/Setting.php:388
+msgid "Site Key"
+msgstr "サイトキー"
+
+#: lib/Schedule.php:6209
+msgid "You have already booked at %s by %s."
+msgstr "すでに%sで%sに予約しています。"
+
+#: lib/Schedule.php:6197
+msgid "You have already booked between %s and %s by %s."
+msgstr "あなたは既に%sで%sと%sの間に予約があります。"
+
+#: index.php:5953
+msgid "Discount value"
+msgstr "割引価格"
+
+#: lib/Setting.php:1563
+msgid "Placeholder text"
+msgstr "プレースホルダーテキスト"
+
+#: index.php:5952
+msgid "Delete the schedules perfectly"
+msgstr "スケジュールを完全に削除"
+
+#: index.php:5950
+msgid "Choose all the time"
+msgstr "すべての時間を選択"
+
+#: index.php:2748
+msgid "Perfect"
+msgstr "完全"
+
+#: index.php:2747
+msgid "Incomplete"
+msgstr "不完全"
+
+#: index.php:2745
+msgid "Deletion type"
+msgstr "削除のタイプ"
+
+#: index.php:2541
+msgid "But if you delete it perfectly, the schedules rebuilt based in \"Weekly schedule templates\"."
+msgstr "ただし、完全に削除すると「週間スケジュールテンプレート」に基づいてスケジュールが再構築されます。"
+
+#: index.php:2540 index.php:5951
+msgid "There are incompletely deleted schedules."
+msgstr "不完全に削除されたスケジュールがあります。"
+
+#: lib/Schedule.php:6140
+msgid "You have already booked at %s."
+msgstr "あなたは既に%sに予約があります。"
+
+#: lib/Schedule.php:6128
+msgid "You have already booked between %s and %s."
+msgstr "あなたは既に%sと%sの間に予約があります。"
+
+#: index.php:5949
+msgid "Enable the coupons function"
+msgstr "クーポン機能の有効化"
+
+#: index.php:5947
+msgid "Add Guest"
+msgstr "ゲストを追加"
+
+#: index.php:5946
+msgid "Add Coupon"
+msgstr "クーポンを追加"
+
+#: index.php:5945
+msgid "Coupon name"
+msgstr "クーポン名"
+
+#: index.php:5792
+msgid "We have canceled your booking."
+msgstr "予約をキャンセルしました。"
+
+#: index.php:5820
+msgid "Added a coupon"
+msgstr "追加したクーポン"
+
+#: index.php:5819
+msgid "Add a coupon code"
+msgstr "クーポンコードを追加する"
+
+#: index.php:5818
+msgid "Discount"
+msgstr "割引"
+
+#: index.php:5817
+msgid "Coupon"
+msgstr "クーポン"
+
+#: lib/Setting.php:1573
+msgid "Save a value of this field as autocomplete on user"
+msgstr "この項目の値をユーザーにオートコンプリートとして保存する"
+
+#: lib/Setting.php:172
+msgid "Offer a limited one-time coupon per users"
+msgstr "ユーザーごとに1回限りのクーポンを提供する"
+
+#: lib/Setting.php:172
+msgid "Offer unlimited coupons"
+msgstr "無制限のクーポンを提供する"
+
+#: index.php:5816 lib/Setting.php:167
+msgid "Coupon code"
+msgstr "クーポンコード"
+
+#: lib/Schedule.php:10242 lib/Schedule.php:10256 lib/Schedule.php:10277
+msgid "None"
+msgstr "なし"
+
+#: lib/Schedule.php:5322 lib/Schedule.php:5335 lib/Schedule.php:5347
+msgid "Not found the coupon code of \"%s\"."
+msgstr "\"%s\"のクーポンコードが見つかりませんでした。"
+
+#: lib/Schedule.php:5313
+msgid "You have already used the coupon code of \"%s\"."
+msgstr "\"%s\"のクーポンコードはすでに使用しています。"
+
+#: lib/Setting.php:255
+msgid "Subtraction"
+msgstr "減算"
+
+#: lib/Setting.php:172
+msgid "Coupon usage"
+msgstr "クーポンの利用"
+
+#: index.php:2477 index.php:5815
+msgid "Coupons"
+msgstr "クーポン"
+
+#: lib/Setting.php:1198
+msgid "Costs"
+msgstr "料金"
+
+#: lib/Setting.php:122 lib/Setting.php:1260 lib/Setting.php:1382
+msgid "Cost 6"
+msgstr "料金 6"
+
+#: lib/Setting.php:122 lib/Setting.php:1250 lib/Setting.php:1381
+msgid "Cost 5"
+msgstr "料金 5"
+
+#: lib/Setting.php:122 lib/Setting.php:1240 lib/Setting.php:1380
+msgid "Cost 4"
+msgstr "料金 4"
+
+#: lib/Setting.php:122 lib/Setting.php:1230 lib/Setting.php:1379
+msgid "Cost 3"
+msgstr "料金 3"
+
+#: lib/Setting.php:122 lib/Setting.php:1220 lib/Setting.php:1378
+msgid "Cost 2"
+msgstr "料金 2"
+
+#: lib/Setting.php:122 lib/Setting.php:1210 lib/Setting.php:1377
+msgid "Standard cost"
+msgstr "標準料金"
+
+#: lib/Setting.php:122
+msgid "Select one from standard cost to cost 6 in services"
+msgstr "サービス内の標準料金から料金6の中から1つを選択"
+
+#: index.php:5814 lib/Schedule.php:10460 lib/Schedule.php:10521
+msgid "%s to %s"
+msgstr "%s 〜 %s"
+
+#: index.php:1836
+msgid "ID: %s has canceled the display."
+msgstr "ID: %sは表示をキャンセルしました。"
+
+#: index.php:1834
+msgid "Shortcode of the Booking Package cannot insert multiple shortcodes on one page."
+msgstr "Booking Packageのショートコードは1つのページに複数のショートコードを挿入することができません。"
+
+#: lib/Schedule.php:6653 lib/Schedule.php:6674
+msgid "The schedule you requested has been closed."
+msgstr "あなたが要求したスケジュールは既に締め切られました。"
+
+#: lib/Schedule.php:6598
+msgid "Schedule was not found"
+msgstr "スケジュールが見つかりませんでした"
+
+#: index.php:3003
+msgid "Copy a shortcode and paste it in your page on the Dashboard > Pages."
+msgstr "ダッシュボード > 固定ページのページ内にショートコードをコピーして貼り付けてください。"
+
+#: lib/Setting.php:372
+msgid "Manual"
+msgstr "手動"
+
+#: lib/Setting.php:372
+msgid "Automatic"
+msgstr "自動"
+
+#: lib/Setting.php:372
+msgid "Capture method for payment intent"
+msgstr "支払いの取得方法"
+
+#: lib/Setting.php:942
+msgid "Maximum the number of guests per one booking"
+msgstr "1回の予約あたりの最大人数"
+
+#: lib/Setting.php:929 lib/Setting.php:972
+msgid "Number of guests"
+msgstr "ゲストの数"
+
+#: lib/Setting.php:919 lib/Setting.php:962
+msgid "Includes \"No\" selected on \"Required\" in the Guests"
+msgstr "「必須」項目で「いいえ」を選択したゲストを含む"
+
+#: lib/Setting.php:899
+msgid "Minimum the number of guests per one booking"
+msgstr "1回の予約あたりの最小人数"
+
+#: index.php:5944
+msgid "Weekly schedule templates"
+msgstr "週間スケジュールテンプレート"
+
+#: index.php:5813
+msgid "Total number of people"
+msgstr "合計人数"
+
+#: index.php:5812 lib/Schedule.php:7303
+msgid "The total number of people must be %s or more."
+msgstr "合計人数は%s以上である必要があります。"
+
+#: index.php:5811 lib/Schedule.php:7326
+msgid "The total number of people must be %s or less."
+msgstr "合計人数は%s以下である必要があります。"
+
+#: index.php:5810 lib/Schedule.php:7308
+msgid "The required total number of people must be %s or more."
+msgstr "必須の合計人数は%s以上である必要があります。"
+
+#: index.php:5809 lib/Schedule.php:7331
+msgid "The required total number of people must be %s or less."
+msgstr "必須の合計人数は%s以下である必要があります。"
+
+#: index.php:2447
+msgid "Guests function is disabled. "
+msgstr "ゲスト機能が無効です。"
+
+#: index.php:5948 lib/Setting.php:895
+msgid "Enable the guests function"
+msgstr "ゲスト機能を有効化"
+
+#: lib/Setting.php:126
+msgid "Reflect the number of visitors in the additional costs"
+msgstr "訪問者の数を追加費用に反映させる"
+
+#: lib/Setting.php:125
+msgid "Reflect the number of visitors in the selected service costs"
+msgstr "訪問者の数を選択したサービスの費用に反映させる"
+
+#: lib/Setting.php:124 lib/Setting.php:925 lib/Setting.php:968
+msgid "Included"
+msgstr "含まれる"
+
+#: lib/Setting.php:124
+msgid "Excluded"
+msgstr "含まれない"
+
+#: lib/Setting.php:124
+msgid "Include the number of guests in the capacity"
+msgstr "定員にゲストの人数を含める"
+
+#: index.php:1387
+msgid "Not found services in the %s."
+msgstr "%sにサービスが見つかりませんでした。"
+
+#: index.php:5807 lib/Setting.php:125 lib/Setting.php:126 lib/Setting.php:352
+#: lib/Setting.php:361 lib/Setting.php:369 lib/Setting.php:375
+#: lib/Setting.php:381 lib/Setting.php:387 lib/Setting.php:782
+#: lib/Setting.php:796 lib/Setting.php:1052
+msgid "Disabled"
+msgstr "無効"
+
+#: index.php:3157 index.php:3170 index.php:3183 index.php:3196 index.php:3209
+#: index.php:3222 index.php:3235 index.php:3248 index.php:5806
+#: lib/Setting.php:125 lib/Setting.php:126 lib/Setting.php:191
+#: lib/Setting.php:325 lib/Setting.php:334 lib/Setting.php:352
+#: lib/Setting.php:361 lib/Setting.php:369 lib/Setting.php:375
+#: lib/Setting.php:381 lib/Setting.php:387 lib/Setting.php:737
+#: lib/Setting.php:779 lib/Setting.php:780 lib/Setting.php:781
+#: lib/Setting.php:793 lib/Setting.php:794 lib/Setting.php:795
+#: lib/Setting.php:805 lib/Setting.php:806 lib/Setting.php:807
+#: lib/Setting.php:915 lib/Setting.php:958 lib/Setting.php:1052
+#: lib/Setting.php:1134 lib/Setting.php:1191 lib/Setting.php:1288
+#: lib/Setting.php:1354 lib/Setting.php:1396 lib/Setting.php:1440
+#: lib/Setting.php:1465 lib/Setting.php:1539
+msgid "Enabled"
+msgstr "有効"
+
+#: index.php:1997
+msgid "Customers"
+msgstr "お客様"
+
+#: lib/Setting.php:171 lib/Setting.php:1574
+msgid "Visitors"
+msgstr "サイト訪問者"
+
+#: lib/Setting.php:171 lib/Setting.php:1574
+msgid "Target customers"
+msgstr "対象の顧客"
+
+#: lib/Setting.php:225 lib/Setting.php:1322 lib/Setting.php:1499
+msgid "To"
+msgstr "To"
+
+#: lib/Setting.php:195 lib/Setting.php:1292 lib/Setting.php:1469
+msgid "From"
+msgstr "From"
+
+#: lib/Schedule.php:5380 lib/Schedule.php:5388
+msgid "%s was not found"
+msgstr "%sが見つかりませんでした"
+
+#: index.php:5940
+msgid "Payment method"
+msgstr "支払い方法"
+
+#: index.php:3229
+msgid "Accept authors as users"
+msgstr "WordPressの投稿者をユーザーとして承認する"
+
+#: index.php:3216
+msgid "Accept contributors as users"
+msgstr "WordPressの寄稿者をユーザーとして承認する"
+
+#: index.php:2249
+msgid "Contributor"
+msgstr "寄稿者"
+
+#: lib/Setting.php:1124 lib/Setting.php:1139
+msgid "URL"
+msgstr "URL"
+
+#: lib/Setting.php:1124 lib/Setting.php:1128
+msgid "Pages"
+msgstr "固定ページ"
+
+#: index.php:5805
+msgid "Add another room"
+msgstr "他の部屋を追加"
+
+#: index.php:5938
+msgid "Add option"
+msgstr "オプションを追加"
+
+#: index.php:5764
+msgid "Nights"
+msgstr "泊"
+
+#: index.php:5763
+msgid "Night"
+msgstr "泊"
+
+#: lib/Setting.php:1544
+msgid "Charge for room"
+msgstr "部屋に課す料金"
+
+#: lib/Setting.php:1543
+msgid "Charge for children"
+msgstr "子供に課す料金"
+
+#: lib/Setting.php:1542
+msgid "Charge for adults"
+msgstr "大人に課す料金"
+
+#: lib/Setting.php:887
+msgid "Allow booking of multiple rooms"
+msgstr "複数の部屋の予約を許可"
+
+#: lib/Schedule.php:9741 lib/Schedule.php:9742 lib/Schedule.php:10300
+msgid "Room"
+msgstr "客室"
+
+#: index.php:5766 lib/Schedule.php:9662
+msgid "rooms"
+msgstr "客室"
+
+#: index.php:5765 lib/Schedule.php:9658
+msgid "room"
+msgstr "客室"
+
+#: index.php:5943
+msgid "This calendar shares the schedules of the \"%s\"."
+msgstr "このカレンダーは\"%s\"のスケジュールを共有しています。"
+
+#: index.php:1096
+msgid "Booking calendar was not found."
+msgstr "予約カレンダーが見つかりませんでした。"
+
+#: index.php:462
+msgid "You currently have a valid subscription. Do you want to deactivate the Booking Package?"
+msgstr "あなたは現在購読中です。Booking Pakcageを無効にしていいですか？"
+
+#: lib/Setting.php:741
+msgid "Target calendar"
+msgstr "対象のカレンダー"
+
+#: lib/Schedule.php:2982
+msgid "If you want to delete this calendar, delete the calendar sharing the schedules."
+msgstr "このカレンダーを削除したい場合、共有先のカレンダー先に削除してください。"
+
+#: lib/Setting.php:721
+msgid "Schedules sharing"
+msgstr "カレンダーのスケジュールを共有"
+
+#: lib/Setting.php:882
+msgid "Maximum nights"
+msgstr "最大宿泊日数"
+
+#: lib/Setting.php:881
+msgid "Minimum nights"
+msgstr "最低宿泊日数"
+
+#: lib/Setting.php:867
+msgid "The day Before National holiday"
+msgstr "祝祭日の前日"
+
+#: lib/Setting.php:814
+msgid "Hotel charges"
+msgstr "宿泊料金"
+
+#: index.php:5770
+msgid "Reception date"
+msgstr "受付日時"
+
+#: index.php:5851
+msgid "No users found"
+msgstr "ユーザーが見つかりません"
+
+#: index.php:5804
+msgid "Change status"
+msgstr "ステータスを変更"
+
+#: index.php:2065
+msgid "Looking for users"
+msgstr "ユーザーを探す"
+
+#: index.php:3242
+msgid "Toolbar"
+msgstr "ツールバー"
+
+#: index.php:5897
+msgid "Do you copy service of \"%s\"?"
+msgstr "\"%s\"をコピーしますか？"
+
+#: index.php:5699
+msgid "Copy"
+msgstr "コピー"
+
+#: index.php:5932
+msgid "Received URI"
+msgstr "受信URL"
+
+#: index.php:2738
+msgid "Action"
+msgstr "操作"
+
+#: lib/Setting.php:1083
+msgid "Pending and Approved"
+msgstr "承認待ちと承認済み"
+
+#: lib/Html.php:382
+msgid "My booking details"
+msgstr "予約の詳細"
+
+#: index.php:1692 index.php:2283 lib/Html.php:335 lib/Html.php:379
+msgid "Booking history"
+msgstr " 予約履歴"
+
+#: lib/Setting.php:1108
+msgid "Redirect to another page without displaying the booking completion page"
+msgstr "予約完了ページを表示せずに他のページにリダイレクト"
+
+#: index.php:6045
+msgid "Do you really want to delete the license as a member?"
+msgstr "ユーザーの資格を本当に削除しますか？"
+
+#: lib/Setting.php:331
+msgid "Tracking ID for the Google analytics"
+msgstr "Google analyticsのトラッキングID"
+
+#: lib/Setting.php:1103
+msgid "Visitor details page for front-end"
+msgstr "フロントエンドの個人情報入力ページ"
+
+#: lib/Setting.php:1102
+msgid "Schedules page for front-end"
+msgstr "フロントエンドのスケジュールページ"
+
+#: lib/Setting.php:1101
+msgid "Calendar page for front-end"
+msgstr "フロントエンドのカレンダーページ"
+
+#: lib/Setting.php:1100
+msgid "Services page for front-end"
+msgstr "フロントエンドのサービスページ"
+
+#: index.php:5787
+msgid "canceled"
+msgstr "キャンセル済み"
+
+#: index.php:5786
+msgid "pending"
+msgstr "承認待ち"
+
+#: index.php:5785
+msgid "approved"
+msgstr "承認済み"
+
+#: index.php:630
+msgid "Unknown error."
+msgstr "不明なエラーです。"
+
+#: index.php:618
+msgid "E-mail or password you entered is incorrect."
+msgstr "入力されたメールまたはパスワードが間違っています"
+
+#: lib/Setting.php:321
+msgid "17:00"
+msgstr "17:00"
+
+#: lib/Setting.php:320
+msgid "03:00 PM"
+msgstr "03:00 PM"
+
+#: lib/Setting.php:319
+msgid "09:00 am"
+msgstr "09:00 am"
+
+#: lib/Setting.php:318
+msgid "09:00 a.m."
+msgstr "09:00 a.m."
+
+#: lib/Setting.php:316
+msgid "Time Format"
+msgstr "時刻フォーマット"
+
+#: index.php:5803
+msgid "%s:%s PM"
+msgstr "%s:%s PM"
+
+#: index.php:5802
+msgid "%s:%s AM"
+msgstr "%s:%s AM"
+
+#: index.php:5801
+msgid "%s:%s pm"
+msgstr "%s:%s pm"
+
+#: index.php:5800
+msgid "%s:%s am"
+msgstr "%s:%s am"
+
+#: index.php:972 index.php:984 index.php:996 lib/Schedule.php:9463
+msgid "%s:%s "
+msgstr "%s:%s "
+
+#: index.php:5799
+msgid "%s:%s p.m."
+msgstr "午後 %s:%s"
+
+#: index.php:5798
+msgid "%s:%s a.m."
+msgstr "午前 %s:%s"
+
+#: index.php:5850
+msgid "Please create a service."
+msgstr "サービスを追加してください。"
+
+#: lib/Setting.php:1104
+msgid "Booking completed page for front-end"
+msgstr "フロントエンドの予約完了ページ"
+
+#: lib/Setting.php:1100 lib/Setting.php:1101 lib/Setting.php:1102
+#: lib/Setting.php:1103 lib/Setting.php:1104 lib/Setting.php:1135
+msgid "Add \"booking-package\" to the name and \"front-end\" to the value on the Custom Fields in the Pages."
+msgstr "固定ページのカスタムフィールドの名前に\"booking-package\"を、値に\"front-end\"を追加してください。"
+
+#: index.php:4709 index.php:5797 lib/Schedule.php:7198 lib/Setting.php:2098
+msgid "Select"
+msgstr "選択"
+
+#: index.php:5895
+msgid "Add field"
+msgstr "項目を追加"
+
+#: lib/Setting.php:1445
+msgid "Per one booking for all guests"
+msgstr "一回の予約ごと (全てのゲスト)"
+
+#: lib/Setting.php:803
+msgid "Pay with Stripe"
+msgstr "Stripeで支払う"
+
+#: index.php:6044 lib/Schedule.php:10433 lib/Setting.php:803
+msgid "Pay with PayPal"
+msgstr "PayPalで支払う"
+
+#: index.php:6043 lib/Schedule.php:10429
+msgid "Pay with Credit Card"
+msgstr "クレジットカード決済"
+
+#: index.php:6042 lib/Schedule.php:9951 lib/Schedule.php:10426
+#: lib/Setting.php:803
+msgid "I will pay locally"
+msgstr "現地で支払う"
+
+#: index.php:6041 lib/Setting.php:803
+msgid "Select payment method"
+msgstr "お支払方法の選択"
+
+#: index.php:6039
+msgid "Select option"
+msgstr "オプションの選択"
+
+#: index.php:1116
+msgid "Service"
+msgstr "サービス"
+
+#: index.php:6040
+msgid "Choose a date"
+msgstr "日付を選択"
+
+#: index.php:1711
+msgid "Your %s details"
+msgstr "%sの詳細"
+
+#: index.php:1710
+msgid "Please select %s"
+msgstr "%sを選んでください"
+
+#: lib/Setting.php:891
+msgid "Start by selecting a service"
+msgstr "サービスの選択から始める"
+
+#: lib/Setting.php:891
+msgid "Start by selecting a date"
+msgstr "日付の選択から始める"
+
+#: lib/Setting.php:891
+msgid "Flow of booking procedure on front-end page"
+msgstr "フロントエンドページでの予約の手順"
+
+#: index.php:6038
+msgid "You have not selected anything"
+msgstr "何も選択されていません"
+
+#: index.php:2110 index.php:2205
+msgid "Search"
+msgstr "検索"
+
+#: lib/Setting.php:1192
+msgid "Users only"
+msgstr "ユーザーのみ"
+
+#: lib/Setting.php:1192
+msgid "Visitors only"
+msgstr "訪問者のみ"
+
+#: lib/Setting.php:1192 lib/Setting.php:1574
+msgid "Visitors and Users"
+msgstr "訪問者とユーザー"
+
+#: lib/Setting.php:893
+msgid "Selection of multiple services"
+msgstr "複数サービスの選択"
+
+#: lib/Schedule.php:9123 lib/Schedule.php:9166
+msgid "There is a problem with the remaining capacity in the schedules."
+msgstr "スケジュールの残りの容量に問題があります。"
+
+#: lib/Setting.php:985
+msgid "Display the remaining capacity as a number instead of symbols in the calendar"
+msgstr "容量の残りを記号または文字列でなく数値としてカレンダー内に表示"
+
+#: lib/Setting.php:1572
+msgid "Is Terms of Service or Privacy Policy"
+msgstr "利用規約またはプライバシーポリシーとして使用"
+
+#: lib/Setting.php:110
+msgid "I agree"
+msgstr "同意する"
+
+#: lib/Setting.php:109
+msgid "Address"
+msgstr "住所"
+
+#: lib/Setting.php:108
+msgid "Zip"
+msgstr "郵便番号"
+
+#: lib/Setting.php:107
+msgid "Phone"
+msgstr "電話"
+
+#: lib/Setting.php:105
+msgid "Last name"
+msgstr "Last name"
+
+#: lib/Setting.php:104
+msgid "First name"
+msgstr "First name"
+
+#: index.php:5963
+msgid "Update subscription"
+msgstr "購読を更新"
+
+#: index.php:5962
+msgid "Register credit card"
+msgstr "クレジットカードを登録"
+
+#: index.php:6026
+msgid "Book now"
+msgstr "予約する"
+
+#: index.php:5832 index.php:5957 lib/Setting.php:751
+msgid "Timezone"
+msgstr "タイムゾーン"
+
+#: index.php:5939
+msgid "Add surcharge or tax"
+msgstr "追加料金または税金を追加"
+
+#: index.php:2882 index.php:5794
+msgid "Surcharge and Tax"
+msgstr "追加料金と税金"
+
+#: index.php:2478
+msgid "Surcharge | Tax"
+msgstr "追加料金 | 税金"
+
+#: lib/Setting.php:288
+msgid "Default Timezone"
+msgstr "タイムゾーンの初期値"
+
+#: index.php:5936 lib/Schedule.php:9843
+msgid "Taxes"
+msgstr "税金"
+
+#: index.php:5937 lib/Schedule.php:9832
+msgid "Surcharges"
+msgstr "追加料金"
+
+#: index.php:2952 index.php:5808
+msgid "Remainders"
+msgstr "残り"
+
+#: index.php:2916
+msgid "Minutes"
+msgstr "分"
+
+#: index.php:2904
+msgid "Hours"
+msgstr "時"
+
+#: index.php:2899
+msgid "Choose a schedule"
+msgstr "スケジュールを選んでください"
+
+#: lib/Setting.php:1445
+msgid "Range of tax or surcharge"
+msgstr "税金または追加料金の範囲"
+
+#: lib/Setting.php:1444
+msgid "Target of tax or surcharge"
+msgstr "税金または追加料金の対象"
+
+#: index.php:2854 lib/Html.php:341
+msgid "Calendar"
+msgstr "カレンダー"
+
+#: index.php:2848
+msgid "Choose a calendar"
+msgstr "カレンダーの選択"
+
+#: index.php:2837 index.php:2966 index.php:5821
+msgid "Apply"
+msgstr "適用"
+
+#: index.php:2455
+msgid "Create a clone"
+msgstr "カレンダーのコピーを作成"
+
+#: lib/Setting.php:1354
+msgid "Selection of multiple options"
+msgstr "複数オプションの選択"
+
+#: index.php:2767
+msgid "Set up schedules"
+msgstr "スケジュールの設定"
+
+#: index.php:2823 index.php:2940
+msgid "Capacitys"
+msgstr "定員"
+
+#: index.php:2816 index.php:5865
+msgid "%s min ago"
+msgstr "%s分前"
+
+#: index.php:2804
+msgid "%s minutes"
+msgstr "%s分"
+
+#: index.php:2799
+msgid "Interval"
+msgstr "間隔"
+
+#: index.php:3296
+msgid "Change the front-end page design by defining CSS."
+msgstr "CSSを定義する事で訪問者向けの予約カレンダー、入力フォームなどのデザインを変更できます。"
+
+#: index.php:5863
+msgid "remainders"
+msgstr "残り"
+
+#: index.php:5862
+msgid "capacities"
+msgstr "定員"
+
+#: index.php:5861
+msgid "deadline time"
+msgstr "締め切り時間"
+
+#: index.php:5859
+msgid "hours"
+msgstr "時"
+
+#: lib/Setting.php:1442
+msgid "Tax-exclusive pricing"
+msgstr "税抜き価格"
+
+#: lib/Setting.php:1442
+msgid "Tax-inclusive pricing"
+msgstr "税込み価格"
+
+#: index.php:4463
+msgid "Get subscription"
+msgstr "有料版を購読"
+
+#: lib/Setting.php:1445
+msgid "Per one booking"
+msgstr "一回の予約ごと"
+
+#: lib/Setting.php:1445
+msgid "Per day"
+msgstr "日ごと"
+
+#: lib/Setting.php:1444 lib/Setting.php:1541
+msgid "Per room"
+msgstr "部屋ごと"
+
+#: lib/Setting.php:1444 lib/Setting.php:1541
+msgid "Per guest"
+msgstr "ゲストごと"
+
+#: index.php:2865 lib/Setting.php:123 lib/Setting.php:1192 lib/Setting.php:1541
+msgid "Target"
+msgstr "リンクターゲット"
+
+#: lib/Setting.php:255 lib/Setting.php:1443
+msgid "Multiplication"
+msgstr "乗算"
+
+#: lib/Setting.php:1443
+msgid "Addition"
+msgstr "加算"
+
+#: lib/Setting.php:255 lib/Setting.php:1443
+msgid "Calculation method"
+msgstr "計算方法"
+
+#: index.php:5796 lib/Setting.php:1441 lib/Setting.php:1442
+msgid "Tax"
+msgstr "税"
+
+#: index.php:5795 lib/Setting.php:127 lib/Setting.php:1441
+msgid "Surcharge"
+msgstr "追加料金"
+
+#: lib/Setting.php:1001
+msgid "Display details of the canceled visitors and user on the Report & Booking page"
+msgstr "キャンセルした訪問者の詳細を予約レポートに表示する"
+
+#: index.php:5935
+msgid "Unpublished"
+msgstr "未公開"
+
+#: index.php:5934
+msgid "Published"
+msgstr "公開済み"
+
+#: index.php:5901
+msgid "New"
+msgstr "新規"
+
+#: index.php:5790
+msgid "CANCELED"
+msgstr "キャンセル済み"
+
+#: index.php:3537
+msgid "Payment a new subscription"
+msgstr "新しい購読を購入する"
+
+#: index.php:3536
+msgid "Cancel this subscription"
+msgstr "この購読を中止する"
+
+#: index.php:3534
+msgid "Add a new subscription"
+msgstr "新しい購読を追加する"
+
+#: index.php:3508 index.php:3523 lib/Html.php:339 lib/Html.php:383
+msgid "ID"
+msgstr "ID"
+
+#: lib/Setting.php:890
+msgid "Position of preparation time"
+msgstr "準備時間の位置"
+
+#: lib/Html.php:304 lib/Html.php:337 lib/Html.php:381
+msgid "Cancel this booking"
+msgstr "予約をキャンセル"
+
+#: lib/Setting.php:1399
+msgid "Number of times users can book by the following deadline"
+msgstr "次の有効期限までにユーザーが予約できる回数"
+
+#: lib/Setting.php:1398
+msgid "Booking limit"
+msgstr "予約の上限"
+
+#: lib/Setting.php:1397 lib/Setting.php:1398
+msgid "Valid"
+msgstr "有効"
+
+#: lib/Setting.php:1397 lib/Setting.php:1398
+msgid "Invalid"
+msgstr "無効"
+
+#: lib/Setting.php:1397
+msgid "Automatic subscription renewal"
+msgstr "購読の自動更新"
+
+#: lib/Setting.php:1353
+msgid "Time to provide service"
+msgstr "サービスを提供する時間"
+
+#: lib/Setting.php:894
+msgid "Service name"
+msgstr "サービス名"
+
+#: lib/Setting.php:890
+msgid "After booked time"
+msgstr "予約の後"
+
+#: lib/Setting.php:890
+msgid "Before booked time"
+msgstr "予約の前"
+
+#: lib/Setting.php:890
+msgid "Before and after booked time"
+msgstr "予約の前後"
+
+#: lib/Setting.php:889
+msgid "Preparation time"
+msgstr "準備時間"
+
+#: index.php:5931
+msgid "Cancellation URI"
+msgstr "キャンセルURL"
+
+#: index.php:5791
+msgid "Can we really cancel your booking?"
+msgstr "本当に予約をキャンセルしますか？"
+
+#: index.php:3124 index.php:3142 index.php:5933 lib/Setting.php:873
+msgid "National holiday"
+msgstr "祝祭日"
+
+#: index.php:2475 index.php:2876
+msgid "Subscriptions"
+msgstr "購読"
+
+#: index.php:2446 index.php:2447
+msgid "Please change the setting on the \"Setting\" tab."
+msgstr "「設定」タブで設定を変更してください。"
+
+#: index.php:2446
+msgid "Service is disabled. "
+msgstr "サービスは無効です。"
+
+#: lib/Schedule.php:9301
+msgid "The format of the email address is incorrect."
+msgstr "メールアドレスの書式が正しくありません。"
+
+#: index.php:6036
+msgid "Cancel booking"
+msgstr "予約をキャンセル"
+
+#: index.php:5793 lib/Html.php:305 lib/Html.php:338
+msgid "Your personal details do not displayed on this page."
+msgstr "あなたの個人情報は表示されません。"
+
+#: index.php:5759
+msgid "Total amount"
+msgstr "合計金額"
+
+#: index.php:5903 lib/Setting.php:1084
+msgid "Pending"
+msgstr "保留中"
+
+#: lib/Setting.php:1069 lib/Setting.php:1070 lib/Setting.php:1071
+#: lib/Setting.php:1072
+msgid "%s days ago"
+msgstr "%s日前"
+
+#: lib/Setting.php:1068
+msgid "%s day ago"
+msgstr "%s日前"
+
+#: lib/Setting.php:1064 lib/Setting.php:1065 lib/Setting.php:1066
+#: lib/Setting.php:1067
+msgid "%s hours ago"
+msgstr "%s時間前"
+
+#: lib/Setting.php:1063
+msgid "%s hour ago"
+msgstr "%s時間前"
+
+#: lib/Setting.php:1062
+msgid "%s minutes ago"
+msgstr "%s分前"
+
+#: lib/Setting.php:878 lib/Setting.php:1206
+msgid "For example, if you want to specify $20.00 in a currency with fractional coins, enter 2000."
+msgstr "端数硬貨の通貨で$20.00を指定する場合は、2000と入力します。"
+
+#: index.php:5930
+msgid "The \"%s\" is only available to subscribed users."
+msgstr "\"%s\"は購読中のユーザーだけが利用できます。"
+
+#: index.php:5769
+msgid "Total payment amount"
+msgstr "お支払い総額"
+
+#: index.php:3154 index.php:3167 index.php:3180 index.php:3193 index.php:3206
+#: index.php:3219 index.php:3232 index.php:3245 index.php:5781
+msgid "Subscribed users only"
+msgstr "購読中のユーザーのみ"
+
+#: index.php:2883
+msgid "Emails"
+msgstr "メール"
+
+#: lib/Setting.php:334
+msgid "Define \"position: sticky\" for the css (style) in the calendar for visitors"
+msgstr "訪問者用カレンダーのcss（style）に「position：sticky」を定義する"
+
+#: index.php:622 index.php:626
+msgid "Username or password you entered is incorrect."
+msgstr "入力したユーザー名またはパスワードが正しくありません。"
+
+#: index.php:2037
+msgid "Decision"
+msgstr "決定"
+
+#: index.php:1729 index.php:6037
+msgid "Next"
+msgstr "次"
+
+#: lib/Setting.php:755
+msgid "Week Starts On"
+msgstr "週の始まり"
+
+#: index.php:2733
+msgid "The selection of the date can not be done with the free plan."
+msgstr "Free プランでは年月日の選択はできません。"
+
+#: index.php:2641
+msgid "Within the specified date"
+msgstr "指定した年月日の範囲"
+
+#: index.php:2754
+msgid "If a visitor made booking, the schedule will not be deleted."
+msgstr "訪問者の予約がある場合、そのスケジュールは削除されません。"
+
+#: index.php:2638
+msgid "After the specified date"
+msgstr "指定した年月日を含む未来"
+
+#: index.php:2635
+msgid "All"
+msgstr "すべて"
+
+#: index.php:2632
+msgid "Period"
+msgstr "ピリオド"
+
+#: index.php:2625 index.php:5928
+msgid "Delete schedules"
+msgstr "公開中のスケジュールを削除"
+
+#: lib/Setting.php:987 lib/Setting.php:988 lib/Setting.php:989
+msgid "You can use the web font of <a href=\"https://material.io/tools/icons/?style=baseline\" target=\"_blank\">Material icons</a>."
+msgstr "Webフォントの<a href=\"https://material.io/tools/icons/?style=baseline\" target=\"_blank\">Material icons</a>を使うことができます。"
+
+#: index.php:3203
+msgid "Accept subscribers as users"
+msgstr "WordPressの購読者をユーザーとして承認する"
+
+#: index.php:2243
+msgid "Subscriber"
+msgstr "購読者"
+
+#: lib/Setting.php:989
+msgid "A phrase or symbol on a day when remaining capacity has 0%"
+msgstr "容量の残りが0%の日の記号または文字列"
+
+#: lib/Setting.php:988
+msgid "A phrase or symbol on a day when the remaining capacity has less than threshold"
+msgstr "容量の残りが\"しきい値\"以下の日の記号または文字列"
+
+#: lib/Setting.php:987
+msgid "A phrase or symbol on a day when the remaining capacity has more than threshold"
+msgstr "容量の残りが\"しきい値\"以上の日の記号または文字列"
+
+#: lib/Setting.php:986
+msgid "Threshold of remaining capacity"
+msgstr "容量の残りのしきい値"
+
+#: lib/Setting.php:984
+msgid "Display the remaining capacity as a phrase or symbol in the calendar"
+msgstr "容量の残りを記号または文字列としてカレンダー内に表示"
+
+#: lib/Setting.php:1384
+msgid "Additional time"
+msgstr "追加時間"
+
+#: index.php:5866 lib/Setting.php:1373
+msgid "%s min"
+msgstr "%s分"
+
+#: lib/Html.php:105
+msgid "%s per month"
+msgstr "月額 %s"
+
+#: lib/Html.php:104
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
+
+#: lib/Html.php:103 lib/Setting.php:110
+msgid "Terms of Service"
+msgstr "利用規約"
+
+#: lib/Html.php:102
+msgid "By proceeding you agree to our %s and %s."
+msgstr "登録することにより%sと%sに同意したことになります。"
+
+#: lib/Html.php:101
+msgid "By proceeding you agree to our %s."
+msgstr "登録することにより%sに同意したことになります。"
+
+#: index.php:786 index.php:3505 lib/Html.php:99 lib/Setting.php:1394
+msgid "Subscription"
+msgstr "購読"
+
+#: index.php:5868
+msgid "Type of booking"
+msgstr "予約のタイプ"
+
+#: index.php:2528 index.php:2811 index.php:2928 index.php:5864
+msgid "Deadline time"
+msgstr "締め切り"
+
+#: index.php:5984
+msgid "Confirmation of cancel"
+msgstr "キャンセルの確認"
+
+#: index.php:5881 index.php:5969 lib/Setting.php:121 lib/Setting.php:170
+#: lib/Setting.php:1190
+msgid "Description"
+msgstr "説明"
+
+#: index.php:5879
+msgid "Shortcode"
+msgstr "ショートコード"
+
+#: index.php:5857
+msgid "Edit schedule by day of the week"
+msgstr "曜日ごとのスケジュールを編集"
+
+#: index.php:4356
+msgid "You are not allowed to access this part of the site"
+msgstr "あなたはサイトのこの部分にアクセスする権限はありません"
+
+#: lib/Setting.php:330
+msgid "Character code of download file"
+msgstr "ダウンロードファイルの文字コード"
+
+#: index.php:3164
+msgid "Reject non-user account bookings"
+msgstr "ユーザーアカウント以外の予約を拒否"
+
+#: index.php:3151
+msgid "User account"
+msgstr "ユーザーアカウント"
+
+#: index.php:2284
+msgid "User"
+msgstr "ユーザー"
+
+#: index.php:2209
+msgid "Add user"
+msgstr "ユーザーを追加"
+
+#: index.php:1690
+msgid "Sign out"
+msgstr "ログアウト"
+
+#: index.php:1689 index.php:6035
+msgid "Sign in"
+msgstr "ログイン"
+
+#: index.php:1688
+msgid "Create account"
+msgstr "アカウント登録"
+
+#: index.php:700 index.php:773 index.php:3125 index.php:3148
+#: lib/Setting.php:171 lib/Setting.php:1574
+msgid "Users"
+msgstr "ユーザー"
+
+#: lib/Html.php:185
+msgid "Sign up"
+msgstr "登録"
+
+#: index.php:1693 lib/Html.php:100 lib/Html.php:198
+msgid "Subscribed items"
+msgstr "利用中の項目"
+
+#: lib/Setting.php:805
+msgid "Product ID"
+msgstr "商品ID"
+
+#: index.php:5874
+msgid "Do you delete the \"%s\"?"
+msgstr "%sを削除しますか?"
+
+#: index.php:5847
+msgid "Are you sure you want to delete this booking?"
+msgstr "この予約を削除しますか?"
+
+#: index.php:5845 index.php:6003
+msgid "Do you send e-mail notifications to customers or administrators?"
+msgstr "訪問者や管理者にメールを送信しますか？"
+
+#: index.php:5842
+msgid "Do you update to approved status?"
+msgstr "状態を承認済みに変更しますか？"
+
+#: index.php:5841
+msgid "Do you update to pending status?"
+msgstr "状態を保留中に変更しますか？"
+
+#: index.php:5839 index.php:6002
+msgid "Confirm sending of email"
+msgstr "メールの送信確認"
+
+#: index.php:6001
+msgid "Automatically adjust the position of the booking heading"
+msgstr "予約の見出しの位置を自動で調整"
+
+#: index.php:5922
+msgid "You can use following shortcodes in content editor."
+msgstr "このテキストエディタでは次のショートコードを使用できます。"
+
+#: index.php:2305 index.php:5902 lib/Html.php:194 lib/Setting.php:1085
+msgid "Approved"
+msgstr "承認済み"
+
+#: lib/Schedule.php:112 lib/Schedule.php:288
+msgid "Member related functions are not available"
+msgstr "メンバーに関する機能は利用できない"
+
+#: index.php:6000
+msgid "You have specified the user for deletion."
+msgstr "メンバーを削除しようとしています"
+
+#: index.php:3271
+msgid "The activation URL appears in [activation_url]."
+msgstr "[activation_url]に承認用のURLが表示されます。"
+
+#: index.php:3270
+msgid "Please write the shortcode of [activation_url] in the text."
+msgstr "本文内に[activation_url]のショートコードを書いてください。"
+
+#: index.php:3264
+msgid "Body of email sent when confirming email address"
+msgstr "メールアドレスの確認時に送信されるメールの本文"
+
+#: index.php:3255
+msgid "Subject of email sent when confirming email address"
+msgstr "メールアドレスの確認時に送信されるメールの件名"
+
+#: index.php:3177
+msgid "User registration from visitors"
+msgstr "訪問者によるユーザー登録"
+
+#: lib/Schedule.php:773
+msgid "Your email address has not been accepted."
+msgstr "あなたのメールアドレスは承認されていません"
+
+#: index.php:6135
+msgid "Booking Calendar :"
+msgstr "Booking Calendar :"
+
+#: index.php:2219
+msgid "Registered"
+msgstr "登録済み"
+
+#: index.php:1673
+msgid "Hello, %s"
+msgstr "こんにちは、%s さん"
+
+#: lib/Schedule.php:271
+msgid "You have already been approved."
+msgstr "すでに承認済みです。"
+
+#: lib/Schedule.php:237 lib/Schedule.php:250
+msgid "Your information could not be found."
+msgstr "あなたの情報が見つかりませんでした。"
+
+#: index.php:2333 lib/Html.php:196
+msgid "Update Profile"
+msgstr "プロフィールを更新"
+
+#: index.php:2313 lib/Html.php:195
+msgid "Change password"
+msgstr "パスワードの変更"
+
+#: lib/Html.php:192
+msgid "Profile"
+msgstr "プロフィール"
+
+#: index.php:2219 index.php:2297 index.php:2566 lib/Html.php:187
+#: lib/Setting.php:106 lib/Setting.php:780 lib/Setting.php:794
+msgid "Email"
+msgstr "メール"
+
+#: index.php:2219 index.php:2293 lib/Html.php:186
+msgid "Username"
+msgstr "ユーザー名"
+
+#: lib/Html.php:184
+msgid "Register For This Site"
+msgstr "このブログに登録"
+
+#: index.php:1691
+msgid "Edit My Profile"
+msgstr "プロフィールを編集"
+
+#: lib/Html.php:190
+msgid "Register"
+msgstr "登録"
+
+#: lib/Setting.php:377
+msgid "Client ID"
+msgstr "クライアント ID"
+
+#: lib/Setting.php:376
+msgid "Test"
+msgstr "テスト"
+
+#: lib/Setting.php:376
+msgid "Live"
+msgstr "ライブ"
+
+#: lib/Setting.php:376
+msgid "Mode"
+msgstr "モード"
+
+#: index.php:5782
+msgid "%s remaining"
+msgstr "残り %s"
+
+#: index.php:5924
+msgid "Fixed calendar"
+msgstr "カレンダーの固定"
+
+#: lib/Setting.php:326
+msgid "Automatically notify developers"
+msgstr "開発者に自動的に通知する"
+
+#: lib/Setting.php:326
+msgid "Javascript syntax error notification"
+msgstr "Javascriptのエラー通知"
+
+#: index.php:5780
+msgid "An error was found in JavaScript syntax. Send javascript syntax error to the author?"
+msgstr "JavaScriptでエラーが見つかりました。 開発者にjavascriptのエラーの内容を送信しますか？"
+
+#: index.php:5831
+msgid "Download CSV"
+msgstr "CSVをダウンロード"
+
+#: index.php:1006
+msgid "Until %s"
+msgstr "%sまで"
+
+#: index.php:949 index.php:5837
+msgid "No visitors"
+msgstr "予約ユーザーなし"
+
+#: index.php:5915
+msgid "Expressions of arrival and departure"
+msgstr "到着と出発の表記"
+
+#: index.php:5923
+msgid "[%s] is inserting \"%s\""
+msgstr "[%s]は \"%s\"を挿入"
+
+#: lib/Setting.php:1565
+msgid "On"
+msgstr "オン"
+
+#: lib/Setting.php:886
+msgid "Check-in & Check-out"
+msgstr "チェックインとチェックアウト"
+
+#: lib/Setting.php:886
+msgid "Arrival & Departure"
+msgstr "到着日と出発日"
+
+#: lib/Setting.php:886
+msgid "Arrival (Check-in) & Departure (Check-out)"
+msgstr "到着日(チェックイン)と出発日(チェックアウト)"
+
+#: lib/Setting.php:123
+msgid "Children"
+msgstr "子供"
+
+#: lib/Setting.php:123
+msgid "Adult"
+msgstr "大人"
+
+#: index.php:5921
+msgid "Accommodation (hotels, campgrounds, etc.)"
+msgstr "宿泊施設 (ホテルやキャンプ場など)"
+
+#: index.php:5920
+msgid "Booking is completed within 24 hours (hair salon, hospital etc.)"
+msgstr "24時間以内に完了する予約 (ヘアサロン、スクール、ツアーなど)"
+
+#: index.php:5919 lib/Setting.php:127
+msgid "Number of people"
+msgstr "人数"
+
+#: index.php:5779
+msgid "Please tap here and choose %s"
+msgstr "ここをタップして%sを選んでください"
+
+#: index.php:5778
+msgid "Please choose %s"
+msgstr "%sを選んでください"
+
+#: index.php:5777 lib/Schedule.php:7263 lib/Schedule.php:7273
+#: lib/Schedule.php:9722
+msgid "people"
+msgstr "名"
+
+#: index.php:5776 lib/Schedule.php:7259 lib/Schedule.php:7269
+#: lib/Schedule.php:7284 lib/Schedule.php:7291 lib/Schedule.php:9717
+msgid "person"
+msgstr "名"
+
+#: index.php:2206 index.php:5775
+msgid "Clear"
+msgstr "クリア"
+
+#: lib/Setting.php:335
+msgid "Font size"
+msgstr "フォントサイズ"
+
+#: index.php:5762 lib/Schedule.php:9649
+msgid "nights"
+msgstr "泊"
+
+#: index.php:5761 lib/Schedule.php:9653
+msgid "night"
+msgstr "泊"
+
+#: index.php:5760
+msgid "Summary"
+msgstr "要約"
+
+#: index.php:5918
+msgid "Confirm deletion of calendar"
+msgstr "カレンダーの削除確認"
+
+#: index.php:5846
+msgid "Confirm deletion of data"
+msgstr "データの削除確認"
+
+#: index.php:5840
+msgid "Confirm contents update"
+msgstr "コンテンツの更新確認"
+
+#: index.php:5753
+msgid "Check-out"
+msgstr "チェックアウト"
+
+#: index.php:5752
+msgid "Check-in"
+msgstr "チェックイン"
+
+#: index.php:5751
+msgid "Departure"
+msgstr "出発日"
+
+#: index.php:5750
+msgid "Arrival"
+msgstr "到着日"
+
+#: index.php:1997
+msgid "List of visitors"
+msgstr "訪問者リスト"
+
+#: index.php:6025
+msgid "Your Booking Details"
+msgstr "予約の詳細"
+
+#: index.php:5758
+msgid "Total price"
+msgstr "合計金額"
+
+#: index.php:5755 lib/Schedule.php:9666
+msgid "Total length of stay"
+msgstr "宿泊日数"
+
+#: index.php:6032
+msgid "Booking & Payment now"
+msgstr "ご予約＆お支払い"
+
+#: index.php:6029
+msgid "Booking Completed"
+msgstr "予約手続きが完了しました"
+
+#: index.php:5768 index.php:6024 lib/Html.php:302
+msgid "Booking details"
+msgstr "予約の詳細"
+
+#: index.php:6023
+msgid "Please fill in your details"
+msgstr "個人情報を入力してください"
+
+#: lib/Schedule.php:5562
+msgid "Booking of %s is suspended."
+msgstr "%sの予約は一時停止されています"
+
+#: lib/Schedule.php:5556
+msgid "There is no vacancy in the room on %s"
+msgstr "%sの部屋に空きがありません。"
+
+#: lib/Schedule.php:5573
+msgid "Schedule data was not found"
+msgstr "予約スケジュールが見つかりませんでした"
+
+#: index.php:5917
+msgid "Include"
+msgstr "含む"
+
+#: index.php:5916
+msgid "Exclude"
+msgstr "含まない"
+
+#: index.php:5914
+msgid "Include children in the maximum number of people in the room"
+msgstr "部屋の定員に子供を含めます"
+
+#: index.php:5913
+msgid "Maximum number of people staying in one room"
+msgstr "1つの部屋に滞在が可能な最大人数"
+
+#: index.php:5912
+msgid "Cost per night"
+msgstr "宿泊料金"
+
+#: index.php:5757
+msgid "Accommodation fees"
+msgstr "宿泊料金"
+
+#: index.php:5756
+msgid "Additional fees"
+msgstr "追加料金"
+
+#: index.php:5754 lib/Schedule.php:9732
+msgid "Total number of guests"
+msgstr "合計の宿泊者数"
+
+#: index.php:5749
+msgid "Departure (Check-out)"
+msgstr "出発 (チェックアウト)"
+
+#: index.php:5748
+msgid "Arrival (Check-in)"
+msgstr "到着 (チェックイン)"
+
+#: lib/Setting.php:348
+msgid "Border color"
+msgstr "枠線の色"
+
+#: lib/Setting.php:347
+msgid "Background color when the pointer overlaps a link"
+msgstr "マウスオーバー時の背景色"
+
+#: lib/Setting.php:346
+msgid "Background color of selected label"
+msgstr "選択したラベルの背景色"
+
+#: lib/Setting.php:345
+msgid "Schedule and service background color"
+msgstr "スケジュールとサービスでの背景色"
+
+#: lib/Setting.php:339
+msgid "Calendar background color with no schedule"
+msgstr "スケジュールがないカレンダーセルの背景色"
+
+#: lib/Setting.php:338
+msgid "Calendar background color with schedule"
+msgstr "スケジュールがあるカレンダーセルの背景色"
+
+#: lib/Setting.php:337
+msgid "Background color"
+msgstr "背景色"
+
+#: lib/Setting.php:324
+msgid "After the date and time"
+msgstr "日付の後"
+
+#: lib/Setting.php:324
+msgid "Before the date and time"
+msgstr "日付の前"
+
+#: lib/Setting.php:324
+msgid "Position of the day of the week"
+msgstr "曜日の位置"
+
+#: index.php:5911
+msgid "Number of rooms available"
+msgstr "利用可能な部屋数"
+
+#: index.php:2646 index.php:5910
+msgid "Date"
+msgstr "日付"
+
+#: index.php:5909
+msgid "State"
+msgstr "状態"
+
+#: index.php:2474 index.php:2870
+msgid "Guests"
+msgstr "ゲスト"
+
+#. Author of the plugin
+msgid "SAASPROJECT Booking Package"
+msgstr "SAASPROJECT Booking Package"
+
+#. Plugin Name of the plugin
+msgid "Booking Package SAASPROJECT"
+msgstr "Booking Package SAASPROJECT"
+
+#: index.php:1403
+msgid "We do not accept reservations for this calendar."
+msgstr "この予約カレンダーは現在利用することができません。"
+
+#: index.php:5983
+msgid "The Service account must be in JSON format."
+msgstr "サービスアカウントはJSON形式でなければなりません。"
+
+#: index.php:718 index.php:776
+msgid "General Setting"
+msgstr "一般設定"
+
+#: index.php:709 index.php:775
+msgid "Calendar Setting"
+msgstr "カレンダー設定"
+
+#: index.php:5843
+msgid "Refund confirmation"
+msgstr "返金の確認"
+
+#: index.php:2301 index.php:5784 index.php:5878 lib/Html.php:193
+#: lib/Html.php:342 lib/Html.php:385
+msgid "Status"
+msgstr "状態"
+
+#: index.php:2454 index.php:5877
+msgid "Add new calendar"
+msgstr "新規カレンダーを追加"
+
+#: index.php:5783
+msgid "An unknown cause of error occurred"
+msgstr "不明なエラーが発生しました"
+
+#: index.php:5873
+msgid "Unpublish calendar"
+msgstr "カレンダーを非公開にする"
+
+#: index.php:5872
+msgid "Publish calendar"
+msgstr "カレンダーを公開する"
+
+#: index.php:5871
+msgid "Accommodation (Hotel)"
+msgstr "宿泊施設 (ホテル)"
+
+#: index.php:5870 lib/Setting.php:892
+msgid "Enable the service function"
+msgstr "サービス機能を有効化"
+
+#: index.php:5869
+msgid "Calendar status"
+msgstr "カレンダーのステータス"
+
+#: index.php:5746 index.php:5747 lib/Html.php:340 lib/Html.php:384
+msgid "Booking Date"
+msgstr "予約日時"
+
+#: index.php:5876
+msgid "Return to Calendar list"
+msgstr "カレンダーリストに戻る"
+
+#. Author URI of the plugin
+msgid "https://saasproject.net/"
+msgstr "https://saasproject.net/"
+
+#. Description of the plugin
+msgid "Booking Package is a high-performance booking calendar system that anyone can easily use."
+msgstr "Booking Packageは誰でも簡単に利用できる高性能な予約システムです。"
+
+#. Plugin URI of the plugin
+msgid "https://saasproject.net/plans/"
+msgstr "https://ja.saasproject.net/plans/"
+
+#: lib/Setting.php:371 lib/Setting.php:378 lib/Setting.php:383
+#: lib/Setting.php:389
+msgid "Secret Key"
+msgstr "シークレットキー"
+
+#: lib/Setting.php:370
+msgid "Public Key"
+msgstr "公開鍵"
+
+#: index.php:2310 lib/Html.php:188
+msgid "Password"
+msgstr "パスワード"
+
+#: lib/Setting.php:363
+msgid "API Key"
+msgstr "API キー"
+
+#: lib/Setting.php:362
+msgid "API Base URL"
+msgstr "API Base URL"
+
+#: index.php:5899
+msgid "Disable"
+msgstr "無効化"
+
+#: lib/Setting.php:315
+msgid "Date format"
+msgstr "日付形式"
+
+#: lib/Setting.php:290
+msgid "Currency"
+msgstr "通貨"
+
+#: index.php:5900
+msgid "Enable"
+msgstr "有効化"
+
+#: lib/Setting.php:325
+msgid "Automatic approve of booking"
+msgstr "新しい予約を自動承認する"
+
+#: index.php:5927
+msgid "Unavailable days from today"
+msgstr "今日から利用できない日数"
+
+#: index.php:5926
+msgid "Public days from today"
+msgstr "予約スケジュールの公開日数"
+
+#: lib/Setting.php:272 lib/Setting.php:715
+msgid "From (Email Title)"
+msgstr "差出人名"
+
+#: lib/Setting.php:271 lib/Setting.php:716
+msgid "From (Email Address)"
+msgstr "差出人メールアドレス"
+
+#: lib/Setting.php:267 lib/Setting.php:714
+msgid "To (Email Address)"
+msgstr "受取人メールアドレス"
+
+#: lib/Setting.php:266
+msgid "Site name"
+msgstr "サイト名"
+
+#: lib/CreditCard.php:405 lib/CreditCard.php:858
+msgid "The requested resource doesn't exist."
+msgstr "要求されたリソースは存在しません。"
+
+#: lib/CreditCard.php:401 lib/CreditCard.php:856
+msgid "The parameters were valid but the request failed."
+msgstr "パラメーターは有効でしたが、要求は失敗しました。"
+
+#: lib/CreditCard.php:397 lib/CreditCard.php:854
+msgid "No valid API key provided."
+msgstr "有効なAPIキーが提供されていません。"
+
+#: lib/CreditCard.php:393 lib/CreditCard.php:852
+msgid "The request was unacceptable, often due to missing a required parameter."
+msgstr "リクエストは受け入れられず、必要なパラメータが不足している可能性があります。"
+
+#: index.php:6031
+msgid "Payment & Booking"
+msgstr "予約する"
+
+#: index.php:6028 lib/Html.php:303 lib/Html.php:336 lib/Html.php:380
+msgid "Return to calendar"
+msgstr "カレンダーに戻る"
+
+#: index.php:6027
+msgid "Return to schedules"
+msgstr "スケジュールに戻る"
+
+#: index.php:6014
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: index.php:6013
+msgid "Last Name"
+msgstr "姓"
+
+#: index.php:6012
+msgid "First Name"
+msgstr "名"
+
+#: index.php:6011
+msgid "Please choose a plan."
+msgstr "プランを選択してください。"
+
+#: index.php:6009 index.php:6034
+msgid "Submit Payment"
+msgstr "支払う"
+
+#: index.php:6008 index.php:6030
+msgid "Credit card"
+msgstr "クレジットカード"
+
+#: index.php:5908 index.php:5999
+msgid "Content"
+msgstr "内容"
+
+#: index.php:5907 index.php:5998
+msgid "Subject"
+msgstr "件名"
+
+#: index.php:5997
+msgid "Other countries"
+msgstr "その他の国"
+
+#: index.php:5996
+msgid "Frequently used countries"
+msgstr "よく使われる国"
+
+#: index.php:5995
+msgid "Selected country"
+msgstr "選択済みの国"
+
+#: index.php:5994 lib/Setting.php:289
+msgid "Country"
+msgstr "国"
+
+#: index.php:5993
+msgid "General"
+msgstr "一般"
+
+#: index.php:5898 index.php:5992
+msgid "Do you delete filed of \"%s\"?"
+msgstr "“%s”の入力フィールドを削除しますか？"
+
+#: index.php:5896 index.php:5991
+msgid "Do you delete service of \"%s\"?"
+msgstr "“%s”のサービスを削除しますか？"
+
+#: index.php:5990
+msgid "Do you really cancel the subscription?"
+msgstr "本当にサブスクリプションをキャンセルしますか？"
+
+#: index.php:5989
+msgid "Do you delete option of \"%s\"?"
+msgstr "“%s”のオプションを削除しますか？"
+
+#: index.php:3527 index.php:5988
+msgid "Customers email"
+msgstr "メールアドレス"
+
+#: index.php:3516 index.php:5987 lib/Setting.php:175 lib/Setting.php:1272
+#: lib/Setting.php:1449
+msgid "Expiration date"
+msgstr "有効期限"
+
+#: index.php:5986
+msgid "Invoice ID"
+msgstr "請求ID"
+
+#: index.php:3512 index.php:5985
+msgid "Subscriptions ID"
+msgstr "購読 ID"
+
+#: index.php:5982
+msgid "Email is sending to Visitor after Deletion of booking."
+msgstr "予約の削除後にメールがユーザーに送信されます。"
+
+#: index.php:5981
+msgid "Cancellation of booking"
+msgstr "予約のキャンセル"
+
+#: index.php:2476 index.php:5892 index.php:5980 lib/Setting.php:127
+#: lib/Setting.php:1356
+msgid "Options"
+msgstr "オプション"
+
+#: index.php:5891 index.php:5979 lib/Setting.php:1441
+msgid "Type"
+msgstr "タイプ"
+
+#: index.php:5890 index.php:5978
+msgid "Is Email"
+msgstr "メールアドレスとして使用"
+
+#: index.php:5889 index.php:5977
+msgid "Is a location in Google Calendar"
+msgstr "Google Calendarのロケーションとして使用"
+
+#: index.php:5888 index.php:5976
+msgid "Is Name"
+msgstr "氏名として使用"
+
+#: index.php:5887 index.php:5975 lib/Setting.php:120
+msgid "Required"
+msgstr "必須"
+
+#: index.php:5886 index.php:5974 lib/Setting.php:256 lib/Setting.php:1446
+msgid "Value"
+msgstr "値"
+
+#: index.php:5885 index.php:5973
+msgid "Unique ID"
+msgstr "ユニークID"
+
+#: index.php:5884 index.php:5972 lib/Setting.php:1352
+msgid "Duration time"
+msgstr "所要時間"
+
+#: index.php:5705 index.php:5883 index.php:5971
+msgid "Price"
+msgstr "金額"
+
+#: index.php:5882 index.php:5970 lib/Setting.php:352 lib/Setting.php:361
+#: lib/Setting.php:369 lib/Setting.php:375 lib/Setting.php:381
+#: lib/Setting.php:387 lib/Setting.php:1191 lib/Setting.php:1396
+#: lib/Setting.php:1440 lib/Setting.php:1539
+msgid "Active"
+msgstr "有効"
+
+#: index.php:5880 index.php:5968 lib/Setting.php:119 lib/Setting.php:168
+#: lib/Setting.php:1189 lib/Setting.php:1375 lib/Setting.php:1395
+#: lib/Setting.php:1439 lib/Setting.php:1538
+msgid "Name"
+msgstr "名前"
+
+#: index.php:5929 index.php:5967
+msgid "Refresh token"
+msgstr "トークンを更新"
+
+#: index.php:5966
+msgid "New service"
+msgstr "新しいサービス"
+
+#: index.php:5893 index.php:5965
+msgid "Add service"
+msgstr "サービスを追加"
+
+#: index.php:5894 index.php:5964
+msgid "Change ranking"
+msgstr "順位の変更"
+
+#: index.php:5942
+msgid "You can use following shortcodes in content editer."
+msgstr "コンテンツエディタでは、次のショートコードを使用できます。"
+
+#: index.php:5961
+msgid "Cancel subscription"
+msgstr "購読をキャンセルする"
+
+#: index.php:5867
+msgid "Choose %s"
+msgstr "%sの選択"
+
+#: index.php:5860
+msgid "minutes"
+msgstr "分"
+
+#: index.php:5858
+msgid "hour"
+msgstr "時"
+
+#: index.php:5849 index.php:6033
+msgid "Service is not registered. "
+msgstr "サービスが登録されていません。"
+
+#: index.php:5848
+msgid "Please upgrade your free plan to enable this feature."
+msgstr "この機能を有効にするには、無料のプランをアップグレードしてください。"
+
+#: index.php:5844
+msgid "This booking has been paid by credit card. Do you refund the price to the customer?"
+msgstr "この予約はクレジットカードで支払い手続きが完了しています。 ユーザーに料金を払い戻しますか？"
+
+#: index.php:5789
+msgid "PENDING"
+msgstr "保留中"
+
+#: index.php:5788
+msgid "APPROVED"
+msgstr "承認済み"
+
+#: index.php:5835
+msgid "No schedules"
+msgstr "予約スケジュールがありません"
+
+#: index.php:5834
+msgid "No reservations"
+msgstr "予約がありません"
+
+#: index.php:5745 lib/Schedule.php:9421
+msgid "Sat"
+msgstr "土"
+
+#: index.php:5744 lib/Schedule.php:9421
+msgid "Fri"
+msgstr "金"
+
+#: index.php:5743 lib/Schedule.php:9421
+msgid "Thu"
+msgstr "木"
+
+#: index.php:5742 lib/Schedule.php:9421
+msgid "Wed"
+msgstr "水"
+
+#: index.php:5741 lib/Schedule.php:9421
+msgid "Tue"
+msgstr "火"
+
+#: index.php:5740 lib/Schedule.php:9421
+msgid "Mon"
+msgstr "月"
+
+#: index.php:5739 lib/Schedule.php:9421
+msgid "Sun"
+msgstr "日"
+
+#: index.php:5738 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:855
+msgid "Saturday"
+msgstr "土曜日"
+
+#: index.php:5737 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:849
+msgid "Friday"
+msgstr "金曜日"
+
+#: index.php:5736 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:843
+msgid "Thursday"
+msgstr "木曜日"
+
+#: index.php:5735 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:837
+msgid "Wednesday"
+msgstr "水曜日"
+
+#: index.php:5734 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:831
+msgid "Tuesday"
+msgstr "火曜日"
+
+#: index.php:5733 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:825
+msgid "Monday"
+msgstr "月曜日"
+
+#: index.php:5732 lib/Schedule.php:9415 lib/Setting.php:755 lib/Setting.php:861
+msgid "Sunday"
+msgstr "日曜日"
+
+#: index.php:5731 lib/Schedule.php:9420 lib/Setting.php:148
+#: lib/Setting.php:1170 lib/Setting.php:1420
+msgid "Dec"
+msgstr "12月"
+
+#: index.php:5730 lib/Schedule.php:9420 lib/Setting.php:147
+#: lib/Setting.php:1169 lib/Setting.php:1419
+msgid "Nov"
+msgstr "11月"
+
+#: index.php:5729 lib/Schedule.php:9420 lib/Setting.php:146
+#: lib/Setting.php:1168 lib/Setting.php:1418
+msgid "Oct"
+msgstr "10月"
+
+#: index.php:5728 lib/Schedule.php:9420 lib/Setting.php:145
+#: lib/Setting.php:1167 lib/Setting.php:1417
+msgid "Sep"
+msgstr "9月"
+
+#: index.php:5727 lib/Schedule.php:9420 lib/Setting.php:144
+#: lib/Setting.php:1166 lib/Setting.php:1416
+msgid "Aug"
+msgstr "8月"
+
+#: index.php:5726 lib/Schedule.php:9420 lib/Setting.php:143
+#: lib/Setting.php:1165 lib/Setting.php:1415
+msgid "Jul"
+msgstr "7月"
+
+#: index.php:5725 lib/Schedule.php:9420 lib/Setting.php:142
+#: lib/Setting.php:1164 lib/Setting.php:1414
+msgid "Jun"
+msgstr "6月"
+
+#: index.php:5723 lib/Schedule.php:9420 lib/Setting.php:140
+#: lib/Setting.php:1162 lib/Setting.php:1412
+msgid "Apr"
+msgstr "4月"
+
+#: index.php:5722 lib/Schedule.php:9420 lib/Setting.php:139
+#: lib/Setting.php:1161 lib/Setting.php:1411
+msgid "Mar"
+msgstr "3月"
+
+#: index.php:5721 lib/Schedule.php:9420 lib/Setting.php:138
+#: lib/Setting.php:1160 lib/Setting.php:1410
+msgid "Feb"
+msgstr "2月"
+
+#: index.php:5720 lib/Schedule.php:9420 lib/Setting.php:137
+#: lib/Setting.php:1159 lib/Setting.php:1409
+msgid "Jan"
+msgstr "1月"
+
+#: index.php:2662 index.php:2704 index.php:5719 lib/Schedule.php:9413
+msgid "December"
+msgstr "12月"
+
+#: index.php:2661 index.php:2703 index.php:5718 lib/Schedule.php:9413
+msgid "November"
+msgstr "11月"
+
+#: index.php:2660 index.php:2702 index.php:5717 lib/Schedule.php:9413
+msgid "October"
+msgstr "10月"
+
+#: index.php:2659 index.php:2701 index.php:5716 lib/Schedule.php:9413
+msgid "September"
+msgstr "9月"
+
+#: index.php:2658 index.php:2700 index.php:5715 lib/Schedule.php:9413
+msgid "August"
+msgstr "8月"
+
+#: index.php:2657 index.php:2699 index.php:5714 lib/Schedule.php:9413
+msgid "July"
+msgstr "7月"
+
+#: index.php:2656 index.php:2698 index.php:5713 lib/Schedule.php:9413
+msgid "June"
+msgstr "6月"
+
+#: index.php:2655 index.php:2697 index.php:5712 index.php:5724
+#: lib/Schedule.php:9413 lib/Schedule.php:9420 lib/Setting.php:141
+#: lib/Setting.php:1163 lib/Setting.php:1413
+msgid "May"
+msgstr "5月"
+
+#: index.php:2654 index.php:2696 index.php:5711 lib/Schedule.php:9413
+msgid "April"
+msgstr "4月"
+
+#: index.php:2653 index.php:2695 index.php:5710 lib/Schedule.php:9413
+msgid "March"
+msgstr "3月"
+
+#: index.php:2652 index.php:2694 index.php:5709 lib/Schedule.php:9413
+msgid "February"
+msgstr "2月"
+
+#: index.php:2651 index.php:2693 index.php:5708 lib/Schedule.php:9413
+msgid "January"
+msgstr "1月"
+
+#: index.php:1998 index.php:5707 index.php:5833
+msgid "Booking"
+msgstr "予約"
+
+#: index.php:5706
+msgid "Warning"
+msgstr "警告"
+
+#: index.php:5704
+msgid "Help"
+msgstr "ヘルプ"
+
+#: index.php:5702
+msgid "Cancel"
+msgstr "キャンセル"
+
+#: index.php:1725 index.php:1726 index.php:2465 index.php:5700 lib/Html.php:106
+#: lib/Html.php:191 lib/Html.php:386
+msgid "Return"
+msgstr "戻る"
+
+#: index.php:5698
+msgid "Change"
+msgstr "変更"
+
+#: index.php:5697
+msgid "Edit"
+msgstr "編集"
+
+#: index.php:5695
+msgid "Add"
+msgstr "追加"
+
+#: index.php:5694
+msgid "Error"
+msgstr "エラー"
+
+#: index.php:4475 index.php:6007
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#: index.php:2889
+msgid "Create"
+msgstr "作成"
+
+#: index.php:3361 index.php:5701
+msgid "Save"
+msgstr "保存"
+
+#: index.php:3342
+msgid "Email format"
+msgstr "メールフォーマット"
+
+#: index.php:3338
+msgid "Enable this email notification"
+msgstr "メール通知"
+
+#: index.php:2563 index.php:3336
+msgid "Enable / Disable"
+msgstr "有効 / 無効"
+
+#: index.php:3129
+msgid "Subscription details"
+msgstr "購読"
+
+#: index.php:2480 index.php:3126
+msgid "Sync"
+msgstr "Sync"
+
+#: index.php:2473 index.php:2869
+msgid "Services"
+msgstr "サービス"
+
+#: index.php:2472 index.php:2868
+msgid "Form fields"
+msgstr "入力フォーム"
+
+#: index.php:2983 index.php:5703
+msgid "Close"
+msgstr "閉じる"
+
+#: index.php:2965 index.php:2982
+msgid "Reset"
+msgstr "リセット"
+
+#: index.php:2334 index.php:2533 index.php:2740 index.php:2757 index.php:5696
+#: lib/Html.php:197
+msgid "Delete"
+msgstr "削除"
+
+#: index.php:2532 index.php:2741 index.php:5941
+msgid "Stop"
+msgstr "停止"
+
+#: index.php:2531
+msgid "Remainder"
+msgstr "空き人数"
+
+#: index.php:2530
+msgid "Capacity"
+msgstr "定員"
+
+#: index.php:2527 index.php:2774 lib/Setting.php:1056
+msgid "Time"
+msgstr "時刻"
+
+#: index.php:5875
+msgid "Edit schedule"
+msgstr "スケジュールの編集"
+
+#: index.php:2441 index.php:5855
+msgid "Schedule setting"
+msgstr "スケジュールの設定"
+
+#: index.php:902 index.php:2026 index.php:2040 index.php:2354 index.php:2996
+#: index.php:3379 lib/Setting.php:120 lib/Setting.php:1540 lib/Setting.php:1567
+#: lib/Setting.php:1568 lib/Setting.php:1569 lib/Setting.php:1570
+#: lib/Setting.php:1571 lib/Setting.php:1572 lib/Setting.php:1573
+msgid "No"
+msgstr "いいえ"
+
+#: index.php:901 index.php:2025 index.php:2039 index.php:2353 index.php:2995
+#: index.php:3378 lib/Setting.php:120 lib/Setting.php:1540 lib/Setting.php:1567
+#: lib/Setting.php:1568 lib/Setting.php:1569 lib/Setting.php:1570
+#: lib/Setting.php:1571 lib/Setting.php:1572 lib/Setting.php:1573
+msgid "Yes"
+msgstr "はい"
+
+#: index.php:899 index.php:2023 index.php:2035 index.php:2351 index.php:2993
+#: index.php:3376
+msgid "Message"
+msgstr "メッセージ"
+
+#: index.php:898 index.php:2022 index.php:2034 index.php:2350 index.php:2529
+#: index.php:2979 index.php:2992 index.php:3375 index.php:5767
+#: lib/Setting.php:127
+msgid "Title"
+msgstr "タイトル"
+
+#: index.php:2481 index.php:3122
+msgid "Setting"
+msgstr "設定"
+
+#: index.php:2471 index.php:2867
+msgid "Schedules"
+msgstr "スケジュール設定"
+
+#: index.php:691 index.php:772 index.php:1972
+msgid "Report & Booking"
+msgstr "予約レポート"
+
+#: index.php:677 index.php:771 index.php:2239
+msgid "Booking Package"
+msgstr "Booking Package"
